@@ -19,15 +19,11 @@ class Farmland extends PMFarmland{
 					}
 				}
 			}
-			$this->getLevel()->setBlock($this, $this, true, true);
-/*
 			if($this->meta == 0){
-				$this->getLevel()->setBlock($this, $this, true, true);
 				$this->getLevel()->setBlock($this, Block::get(Block::DIRT), true, true);
 			}else{
 				$this->getLevel()->setBlock($this, $this, true, true);
 			}
-*/
 			return Level::BLOCK_UPDATE_RANDOM;
 		}
 		return false;
