@@ -11,8 +11,11 @@ use pocketmine\level\Level;
 use pocketmine\event\block\BlockGrowEvent;
 
 class Crops extends PMCrops{
+	protected $id = self::AIR;
+
 	public function __construct($meta = 0){
-		$this->meta = $meta;
+		$this->id = (int) $this->id;
+		$this->meta = (int) $meta;
 	}
 
 	public function place(Item $item, Block $block, Block $target, $face, $fx, $fy, $fz, Player $player = null){
