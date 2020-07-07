@@ -1,5 +1,5 @@
 name: CropPlus
-main: CropPlus\CropPlus
+main: blugin\cropplus\CropPlus
 prefix: "CropPlus"
 version: "1.2"
 api: [1.13.0, 2.0.0]

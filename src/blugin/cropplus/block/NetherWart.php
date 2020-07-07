@@ -1,8 +1,8 @@
 <?php
 
-namespace CropPlus\block;
+namespace blugin\cropplus\block;
 
-use CropPlus\CropPlus;
+use blugin\cropplus\CropPlus;
 use pocketmine\Player;
 use pocketmine\item\Item;
 use pocketmine\block\Block;

@@ -1,6 +1,6 @@
 <?php
 
-namespace CropPlus\block;
+namespace blugin\cropplus\block;
 
 use pocketmine\block\Block;
 use pocketmine\block\Farmland as PMFarmland;

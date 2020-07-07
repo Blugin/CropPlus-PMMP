@@ -1,6 +1,6 @@
 <?php
 
-namespace CropPlus\block;
+namespace blugin\cropplus\block;
 
 use pocketmine\item\Item;
 

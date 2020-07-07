@@ -1,6 +1,6 @@
 <?php
 
-namespace CropPlus;
+namespace blugin\cropplus;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -8,24 +8,24 @@ use pocketmine\event\level\LevelLoadEvent;
 use pocketmine\level\Level;
 use pocketmine\item\Item;
 use pocketmine\block\Block;
-use CropPlus\item\Dye;
-use CropPlus\item\NetherWartSeeds;
+use blugin\cropplus\item\Dye;
+use blugin\cropplus\item\NetherWartSeeds;
 use pocketmine\block\Grass;
 use pocketmine\block\Mycelium;
-use CropPlus\block\Farmland;
+use blugin\cropplus\block\Farmland;
 use pocketmine\block\Sapling;
 use pocketmine\block\Leaves;
 use pocketmine\block\Leaves2;
-use CropPlus\block\Wheat;
-use CropPlus\block\Beetroot;
-use CropPlus\block\Carrot;
-use CropPlus\block\Potato;
+use blugin\cropplus\block\Wheat;
+use blugin\cropplus\block\Beetroot;
+use blugin\cropplus\block\Carrot;
+use blugin\cropplus\block\Potato;
 use pocketmine\block\Cactus;
 use pocketmine\block\Sugarcane;
-use CropPlus\block\MelonStem;
-use CropPlus\block\PumpkinStem;
-use CropPlus\block\CocoaBeans;
-use CropPlus\block\NetherWart;
+use blugin\cropplus\block\MelonStem;
+use blugin\cropplus\block\PumpkinStem;
+use blugin\cropplus\block\CocoaBeans;
+use blugin\cropplus\block\NetherWart;
 
 class CropPlus extends PluginBase implements Listener{ 
 	const NETHER_WART_BLOCK = 115;

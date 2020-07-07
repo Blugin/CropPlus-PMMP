@@ -1,10 +1,10 @@
 <?php
 
-namespace CropPlus\item;
+namespace blugin\cropplus\item;
 
 use pocketmine\item\Item;
 use pocketmine\block\Block;
-use CropPlus\CropPlus;
+use blugin\cropplus\CropPlus;
 
 class Dye extends Item{
 	public function __construct($meta = 0, $count = 1){
