@@ -1,7 +1,9 @@
+---
 name: CropPlus
 main: blugin\cropplus\CropPlus
-prefix: "CropPlus"
-version: "1.2"
-api: [1.13.0, 2.0.0]
-author: DeBe
-load: StartUp
+version: 1.0.0
+api: [4.0.0]
+authors: ['Blugin-team', 'PresentKim']
+description: ''
+load: STARTUP
+...
