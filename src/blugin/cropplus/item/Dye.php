@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace blugin\cropplus\item;
 
 use pocketmine\item\Item;
